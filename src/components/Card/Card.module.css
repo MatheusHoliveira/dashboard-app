@@ -1,0 +1,30 @@
+.CardInicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(39, 185, 71);
+  color: aliceblue;
+  position: relative;
+  left: 16rem;
+  top: 2rem;
+  width: 35rem;
+  height: 200px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.imgCard {
+  width: 50%;
+  position: absolute;
+  left: 16rem;
+  bottom: -1.9rem;
+}
+
+.cardTitle {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  /* position: relative; */
+}

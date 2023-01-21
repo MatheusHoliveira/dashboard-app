@@ -1,0 +1,13 @@
+.CardHome {
+  display: flex;
+  justify-content: center;
+  width: 70rem;
+  gap: 10rem;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.PagesDirecionamento {
+  width: 50%;
+  position: absolute;
+  left: 16rem;
+}

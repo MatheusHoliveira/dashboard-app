@@ -1,0 +1,35 @@
+.leftMenu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
+  /* flex: 1; */
+  /* padding: 1rem; */
+  width: 12rem;
+  height: 100vh;
+  background-color: rgb(39, 185, 71);
+  color: aliceblue;
+  justify-content: start;
+}
+
+.title {
+  border-bottom: 0.1rem solid rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  padding: 0.5rem 0;
+  font-weight: bold;
+}
+
+.liMenu {
+  border-bottom: 0.1rem solid rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+}

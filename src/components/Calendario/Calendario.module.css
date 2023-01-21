@@ -1,0 +1,30 @@
+.CardCalendario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: aliceblue;
+  position: relative;
+  left: 16rem;
+  top: 2rem;
+  width: 20rem;
+  height: 200px;
+  padding: 35;
+  border-radius: 10px;
+}
+
+.imgCalendario {
+  width: 150%;
+  padding: 55px;
+  position: absolute;
+  /* left: 16rem; */
+}
+
+.cardTitleCalendario {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  /* position: relative; */
+}

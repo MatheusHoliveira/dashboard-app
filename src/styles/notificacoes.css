@@ -1,0 +1,34 @@
+.CardNotificacoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(39, 185, 71);
+  color: aliceblue;
+  position: relative;
+  left: 15rem;
+  top: 2rem;
+  width: 15rem;
+  height: 200px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.strong {
+  border-bottom: 0.1rem solid rgb(255, 255, 255);
+  width: 100%;
+  padding: 1.5rem;
+}
+.imgNotificacoes {
+  width: 50%;
+  position: absolute;
+  left: 16rem;
+  bottom: -1.9rem;
+}
+
+.cardTitleNotificacoes {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  /* position: relative; */
+}
