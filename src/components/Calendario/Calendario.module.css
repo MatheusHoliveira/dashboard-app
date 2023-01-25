@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
 .CardCalendario {
   display: flex;
   justify-content: center;
@@ -5,11 +7,11 @@
 
   color: aliceblue;
   position: relative;
-  left: 16rem;
-  top: 2rem;
+  left: 43rem;
+  top: 4rem;
   width: 20rem;
-  height: 200px;
-  padding: 35;
+  height: 10rem;
+  padding: 2rem;
   border-radius: 10px;
 }
 

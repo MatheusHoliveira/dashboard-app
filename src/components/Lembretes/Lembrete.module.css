@@ -1,30 +1,13 @@
 .CardLembretes {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: row;
+  border: 1px solid rgb(253, 253, 253);
   background-color: rgb(39, 185, 71);
-  color: aliceblue;
-  position: relative;
-  left: 13rem;
-  top: 2rem;
-  width: 35rem;
-  height: 200px;
-  padding: 10px;
+  color: rgb(247, 247, 247);
+  margin-left: 6rem;
+  width: 15rem;
+  height: 5rem;
   border-radius: 10px;
-}
-
-.img {
-  width: 50%;
-  position: absolute;
-  left: 16rem;
-  bottom: -1.9rem;
-}
-
-.CardLembretesTitle {
-  width: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 2rem;
-  /* position: relative; */
 }
